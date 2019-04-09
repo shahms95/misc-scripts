@@ -1,3 +1,4 @@
+# Doesn't work a lot of times ; [Errno 28] No space left on device
 #Install Conda 
 
 mkdir tmp;
@@ -19,6 +20,7 @@ cd ~
 #Use Conda to install TF
 conda create --name tf_gpu tensorflow-gpu 
 
-#check installation
+#check installation - open python console first
 # import tensorflow as tf
 # sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+
